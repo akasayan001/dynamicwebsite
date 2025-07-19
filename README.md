@@ -1,7 +1,8 @@
 # Dynamic Website 🌐
 
 This is a dynamic website built using **Node.js**, **Express.js**, **MongoDB**, and **Handlebars (HBS)** for templating. It features user registration, login with authentication (JWT & cookies), and dynamic content rendering.
-
+# live demo
+https://dynamicwebsite-bmux.onrender.com/
 ## 🚀 Features
 
 - User registration and login with hashed passwords
