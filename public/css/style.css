@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #bdeaf1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 3.7rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+.row {
+  margin: 0;
+}
+
+.navbar-style {
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  color: #fd5c63;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding-left: 1.5rem;
+  font-size: 1.9rem;
+  transition: color 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fd5c63;
+}
+
+.hero-text h1 {
+  font-size: 5.5rem;
+  line-height: 1.5;
+  color: #2f2f2f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text h1:nth-child(2) {
+  font-weight: bold;
+  color: #5222d0;
+}
+
+.hero-text p,
+.our-services p,
+label {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  color: #777;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  line-height: 1.6;
+}
+
+.hero-text p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-style,
+button.btn-primary {
+  padding: 1.2rem 2.5rem;
+  border: none;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #fd5c63 0%, #fc4a1a 100%);
+  color: #fff;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button.btn-primary:hover,
+.btn-style:hover {
+  background: linear-gradient(135deg, #fc4a1a 0%, #fd5c63 100%);
+  transform: translateY(-2px);
+}
+
+.about-style {
+  margin: 10rem 0;
+}
+
+.about-style .main-heading,
+.service-style .main-heading,
+.contact-style .main-heading {
+  font-size: 5rem;
+  color: #fd5c63;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-style .sub-heading,
+.service-style .sub-heading,
+.contact-style .sub-heading {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  color: #555;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.service-style {
+  margin-bottom: 10rem;
+}
+
+.box {
+  padding: 1.5rem;
+}
+
+.our-services {
+  margin-top: 5rem;
+  padding: 3rem;
+  min-height: 220px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+
+.our-services .icon {
+  margin-bottom: 1.5rem;
+}
+
+.our-services h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.our-services:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.speedup:hover {
+  background: linear-gradient(-45deg, #f33474, #f55b2a);
+}
+
+.settings:hover {
+  background: linear-gradient(-45deg, #49d0da, #210c59);
+}
+
+.privacy:hover {
+  background: linear-gradient(-45deg, green, red);
+}
+
+.backups:hover {
+  background: linear-gradient(-45deg, #fd7f30, #fdb642);
+}
+
+.ssl:hover {
+  background: linear-gradient(-45deg, #aed808, #240404);
+}
+
+.database:hover {
+  background: linear-gradient(-45deg, #27b88d, #22dd73);
+}
+
+.contact-style {
+  margin: 10rem 0;
+}
+
+label {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.form-control {
+  padding: 1.5rem 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border 0.3s;
+}
+
+.form-control:focus {
+  border-color: #fd5c63;
+  box-shadow: 0 0 5px rgba(253, 92, 99, 0.4);
+}
+
+::placeholder {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+footer {
+  background: #eee;
+}
+
+footer p {
+  padding: 1rem 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3.2rem;
+  }
+
+  .hero-text p,
+  .our-services p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  .about-style .sub-heading,
+  .service-style .sub-heading,
+  .contact-style .sub-heading {
+    font-size: 2.2rem;
+  }
+
+  .btn-style,
+  button.btn-primary {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+  }
+}

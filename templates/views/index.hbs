@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  {{>nav}}
+
+  {{!-- hero section start --}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div
+            class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+            <h1>We WILL HELP YOU TO</h1>
+            <H1>GROW YOUR BUSINESS</H1>
+            <P>We Are The Team of <span class="bold-style"> Professional Developer</span></P>
+            <div class="text-center my-3">
+              <a href="https://akasayan001.github.io/portfolio_Websites/" class="btn btn-style btn-primary"
+                target="_blank">Read More</a>
+            </div>
+          </div>
+          {{!-- right --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+            <figure>
+              <img src="image/pic1.png" style="width: 300px; margin-left:250px" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{!-- hero section end --}}
+
+  {{!-- about section start --}}
+  {{>about}}
+  {{!-- about section end --}}
+
+  {{!-- service section start --}}
+  {{>service}}
+  {{!-- service section end --}}
+
+  {{!-- map section start --}}
+  {{>map}}
+  {{!-- map section end --}}
+
+  {{!-- map section start --}}
+  {{>contact}}
+  {{!-- map section end --}}
+
+  {{>footer}}
+
+  <script src="../jq/jquery.js" type="text/javascript"> </script>
+  <script src="../js/bootstrap.js" type="text/javascript"> </script>
+
+</body>
+
+</html>
